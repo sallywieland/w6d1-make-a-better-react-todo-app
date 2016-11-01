@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    background-color: #3626A7;
+}
+
+.panel_custom {
+    background-color: #FBFBFF;
+    box-shadow: 5px 2px 50px rgba(0, 0, 0, 0.5);
+}
+.panel-heading {
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+.text_bar, .text_button {
+    border: 1px solid rgb(205, 205, 205);
+    background-color: #FBFBFF;
+}
+.text_button {
+    border-left: none;
+
+    &:hover {
+        background-color: #3626A7;
+    }
+}
+.glyph_hover {
+    &:hover {
+        color: white;
+    }
+}
+.todo_text {
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-left: 10px;
+}
+.todo_box {
+    height: 34px;
+    border: 1px solid rgb(205, 205, 205);
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    &:hover {
+        background-color: rgb(242, 242, 242);
+    }
+}
+.completed_todos {
+    color: white;
+    text-decoration: line-through;
+    background-color: #3626A7;
+}

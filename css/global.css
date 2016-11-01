@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  background-color: #3626A7;
+}
+
+.panel_custom {
+  background-color: #FBFBFF;
+  box-shadow: 5px 2px 50px rgba(0, 0, 0, 0.5);
+}
+
+.panel-heading {
+  border-bottom: 1px solid #cdcdcd;
+}
+
+.text_bar, .text_button {
+  border: 1px solid #cdcdcd;
+  background-color: #FBFBFF;
+}
+
+.text_button {
+  border-left: none;
+}
+
+.text_button:hover {
+  background-color: #3626A7;
+}
+
+.glyph_hover:hover {
+  color: white;
+}
+
+.todo_text {
+  font-size: 22px;
+  letter-spacing: 1px;
+  padding-left: 10px;
+}
+
+.todo_box {
+  height: 34px;
+  border: 1px solid #cdcdcd;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.todo_box:hover {
+  background-color: #f2f2f2;
+}
+
+.completed_todos {
+  color: white;
+  text-decoration: line-through;
+  background-color: #3626A7;
+}
